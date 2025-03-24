@@ -4,10 +4,11 @@ import { LucideAngularModule, MapPin, WavesLadder, Bed, Bath, Heart } from "luci
 import { Home } from "../models/home.type";
 import { CommonModule } from "@angular/common";
 import { HomeService } from "../services/home.service";
+import { RouterLink } from "@angular/router";
 
 @Component({
   selector: "app-home-card",
-  imports: [LucideAngularModule, FormsModule, CommonModule],
+  imports: [LucideAngularModule, FormsModule, CommonModule,RouterLink],
   templateUrl: "./home-card.component.html",
   styleUrl: "./home-card.component.css",
 })
@@ -26,6 +27,6 @@ export class HomeCardComponent {
     if (!this.home.id) {
       return;
     }
-    this.homeService.toggleFavorite(this.home.id);
+    this.homeService.toggleFavorite(this.home);
   }
 }

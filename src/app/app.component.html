@@ -1,6 +1,15 @@
 <div class="container mx-auto px-4 py-8">
-  <header class="mb-8">
-    <h1 class="text-3xl font-bold text-indigo-800">Angular Homes</h1>
+  <header class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div class="flex justify-between items-center">
+        <!-- App title with link to home page -->
+        <h1 class="text-2xl font-bold text-indigo-600">
+          <a routerLink="/">HomeListings</a>
+        </h1>
+        <!-- Navigation button to create a new home listing -->
+        <button routerLink="/homes/new" class="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition">Add New Home</button>
+      </div>
+    </div>
   </header>
 
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

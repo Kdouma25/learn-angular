@@ -1,7 +1,6 @@
 import { Component, inject } from "@angular/core";
 import { HomeService } from "../services/home.service";
 import { HomeCardComponent } from "../home-card/home-card.component";
-import { Home } from "../models/home.type";
 
 @Component({
   selector: "app-favorite-homes",

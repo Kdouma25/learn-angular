@@ -3,8 +3,8 @@
     {
       "title": "Beautiful Family Home",
       "description": "Spacious family home with a large backyard and modern amenities.",
-      "city": "San Francisco",
-      "rooms": 4,
+      "city": "Seattle",
+      "rooms": 3,
       "bathrooms": 2,
       "hasPool": true,
       "picture": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
@@ -41,24 +41,24 @@
       "id": "4"
     },
     {
-      "id": "5",
       "title": "Urban Loft Space",
       "description": "Industrial-style loft with high ceilings, exposed brick, and modern design elements.",
-      "city": "Chicago",
+      "city": "New York",
       "rooms": 1,
       "bathrooms": 1,
       "hasPool": false,
-      "picture": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      "picture": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "id": "5"
     },
     {
-      "id": "6",
       "title": "Suburban Family House",
       "description": "Well-maintained family home in a quiet suburban neighborhood with good schools.",
       "city": "Boston",
       "rooms": 4,
-      "bathrooms": 2.5,
-      "hasPool": false,
-      "picture": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      "bathrooms": 3,
+      "hasPool": true,
+      "picture": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "id": "6"
     },
     {
       "id": "7",
@@ -119,6 +119,26 @@
       "bathrooms": 2,
       "hasPool": false,
       "picture": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80"
+    },
+    {
+      "id": "7c18",
+      "title": "new home denver 2 roms 3 bath with pool",
+      "description": "this a new test home in denever",
+      "city": "Denver",
+      "rooms": 2,
+      "bathrooms": 3,
+      "hasPool": true,
+      "picture": "https://media.istockphoto.com/id/1255835530/photo/modern-custom-suburban-home-exterior.jpg?s=612x612&w=0&k=20&c=0Dqjm3NunXjZtWVpsUvNKg2A4rK2gMvJ-827nb4AMU4="
+    },
+    {
+      "id": "a6c8",
+      "title": "third home nyc",
+      "description": "this is a third home in new york city ",
+      "city": "New York",
+      "rooms": 1,
+      "bathrooms": 3,
+      "hasPool": false,
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1VGcA-RK0BLKBofzJ_dAF5yFsnmgQndUyFg&s"
     }
   ]
 }
